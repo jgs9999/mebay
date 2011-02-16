@@ -4,19 +4,19 @@
 </head>
 <body>
 <p>
-	<b>Name:</b><%= @ad.name %>
+	<b>Name: </b><%= @ad.name %>
 </p>
 <p>
-	<b>Description:</b><%= @ad.description %>
+	<b>Description: </b><%= @ad.description %>
 </p>
 <p>
-	<b>Price:</b><%= @ad.price %>
+	<b>Price: </b><%= @ad.price %>
 </p>
 <p>
-	<b>Seller Id:</b><%= @ad.seller_id %>
+	<b>Seller Id: </b><%= @ad.seller_id %>
 </p>
 <p>
-	<b>Email:</b><%= @ad.email %>
+	<b>Email: </b><%= @ad.email %>
 </p>
 <p>
   <img src="<%= @ad.img_url %>"/>

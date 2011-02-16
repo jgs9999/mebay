@@ -1,4 +1,6 @@
 Mebay::Application.routes.draw do
+  match 'ads/new' => 'ads#new'
+  match 'ads/create' => 'ads#create'
   match 'ads/:id' => 'ads#show'
   match 'ads' => 'ads#index'
   # The priority is based upon order of creation:

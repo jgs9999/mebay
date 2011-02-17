@@ -1,4 +1,6 @@
 Mebay::Application.routes.draw do
+  match 'ads/:id/edit' => 'ads#edit'
+  match 'ads/:id/update' => 'ads#update'  
   match 'ads/new' => 'ads#new'
   match 'ads/create' => 'ads#create'
   match 'ads/:id' => 'ads#show'
